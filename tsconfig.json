@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "./out",
+    "target": "es2019", 
+    "lib": [ //node 12
+      "es2019", 
+      "es2020.promise", 
+      "es2020.bigint", 
+      "es2020.string",
+      "ScriptHost"
+    ], 
+    "types": ["node"],
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+
+    "strict": true,
+    "noImplicitReturns": true,             /* Report error when not all code paths in function return a value. */
+    "noFallthroughCasesInSwitch": true,    /* Report errors for fallthrough cases in switch statement. */
+  },
+}

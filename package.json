@@ -1,0 +1,12 @@
+{
+  "name": "typeshcript",
+  "version": "0.1",
+  "main": "typeshcript.js",
+  "repository": "git@github.com:jauco/typeshcript.git",
+  "author": "code@jauco.nl",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "typescript": "^4.1.2"
+  }
+}
